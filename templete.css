@@ -1,0 +1,240 @@
+
+
+  @font-face {
+    font-family: 'stormline';
+    src: url('Stormline_PERSONAL_USE_ONLY-Bold.otf');
+    }
+  
+    @font-face {
+      font-family: 'compangan';
+      src: url('Compagnon-Medium.woff2');
+      }
+    
+
+  h1 {
+    font-family: 'stormline', Fallback, sans-serif;
+    color: blue;
+  }
+
+.vl {
+    border-left: 6px solid rgb(204, 0, 204);
+    height: 100vh;
+    position: absolute;
+    left: 0.5%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .vl2 {
+    border-left: 6px solid rgb(0, 35, 235);
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    margin-left: 0px;
+    top: 0;
+  }  
+
+.threeparts{
+  display: grid;
+  grid-template-columns: 3fr 4fr 3fr ;
+  position: relative;
+  padding: 5vw;
+  text-align: center;
+  z-index: 100;
+}
+
+  .newsletter_name{
+      font-size: 5em;
+      text-align: center;
+      margin-top: 5%;
+  }
+
+  .title{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.maintext{
+  font-family: 'compangan', sans-serif;
+  
+}
+
+  .subline{
+    font-family: 'compangan';
+    font-size: 1.5em;
+    color: rgb(0, 35, 235);
+    text-align: center;
+  }
+
+.content{
+      font-family: 'compangan';
+      color: #2a6a30;
+      font-size: 1em;
+      display: grid;
+      grid-template-columns: 1fr 10fr 1fr ;
+      position: relative;
+      padding: 5vw;
+      text-align: center;
+      z-index: 100;
+  }
+
+.subheads{
+  font-family: 'compangan';
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  position: relative;
+  padding: 5vw;
+  text-align: center;
+  z-index: 200;
+}
+
+.link6 { font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  color: #a6ca9a;
+} /* CSS link color (red) */
+.link6:hover { 
+  font-size: 1.2em;
+  background-color:#9d9d85 ;
+  border: none;
+  cursor: pointer;
+color: #e6e617; } /* CSS link hover (green) */
+
+
+.link7 { font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  color: #bfd7d5; } /* CSS link color (red) */
+  
+.link7:hover { font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  color: #4242a7; } /* CSS link hover (green) */
+
+
+.link8 { font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  color: #719576; } /* CSS link color (red) */
+.link8:hover { font-size: 1.2em;
+  background-color: #a5b6a8;
+  border: none;
+  cursor: pointer;color: #00FF00; } /* CSS link hover (green) */
+
+
+.link9 { font-size: 1.2em;
+  border: none;
+  cursor: pointer;color: #d1abab; } /* CSS link color (red) */
+.link9:hover { font-size: 1.2em;
+  background-color: #bfa8b3;
+  border: none;
+  cursor: pointer;color: #6b0215; } /* CSS link hover (green) */
+
+
+.link10 { font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  color: #8f8389 } /* CSS link color (red) */
+.link10:hover { font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  color: #d46647; } /* CSS link hover (green) */
+
+.link11 { font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    color: #587f73 } /* CSS link color (red) */
+.link11:hover { font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    color: #f6278f; } /* CSS link hover (green) */
+  
+  
+.link12 { font-size: 1.5em;
+      border: none;
+      cursor: pointer;
+      color: #8e99e5 } /* CSS link color (red) */
+.link12:hover { font-size: 1.5em;
+      border: none;
+      cursor: pointer;
+      color: #4242a7; } /* CSS link hover (green) */
+
+.link13 { font-size: 1.5em;
+      border: none;
+      cursor: pointer;
+      color: #2a2c24 } /* CSS link color (red) */
+.link13:hover { font-size: 1.5em;
+      border: none;
+      cursor: pointer;
+      color: #00FF00; } /* CSS link hover (green) */
+
+.link14 { font-size: 1.5em;
+        border: none;
+        cursor: pointer;
+        color: #575a4b } /* CSS link color (red) */
+.link14:hover { font-size: 1.5em;
+        border: none;
+        cursor: pointer;
+        color: #00FF00; } /* CSS link hover (green) */
+
+.link15 { font-size: 1.5em;
+          border: none;
+          cursor: pointer;
+          color: #cfcfea } /* CSS link color (red) */
+.link15:hover { font-size: 1.5em;
+          border: none;
+          cursor: pointer;
+          color: #6969af; } /* CSS link hover (green) */
+
+
+
+
+
+  
+  .dropbtn {
+    background-color: #fdfffe00;
+    color: rgba(0, 0, 0, 0);
+    padding: 1%;
+    font-size: 3em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f900;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    background-color: #c4ccff46;
+    color: rgb(32, 47, 255);
+    padding: 4%;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #00012a}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
