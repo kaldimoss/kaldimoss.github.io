@@ -1,1 +1,1 @@
-{"name":"play","short_name":"play","description":"","start_url":"/","scope":"/","display":"standalone","background_color":"#fff","theme_color":"#fff","icons":[]}
+{"name":"Moss","short_name":"Moss","description":"Moss Homepage","start_url":"/","scope":"/","display":"standalone","background_color":"#FFF8F0","theme_color":"#afff31","prefer_related_applications":true,"icons":[{"src":"/favicon.png","sizes":"512x512"}]}
